@@ -1,0 +1,53 @@
+.header{
+height: 150px;
+flex-shrink: 0;
+border-bottom: 3px solid #FFF;
+background: rgba(43, 74, 97, 0.87);
+}
+.header_wraper_img{
+    width: 186px;
+height: 72px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}
+.header_nav{
+
+  
+}
+.container{
+    width: 1225px;
+flex-shrink: 0;
+}
+.header_list{
+    width: 325px;
+    height: 24px;
+    flex-shrink: 0;
+    display: flex;
+    gap: 38px;
+    padding: 0px 558px;
+}
+.header_link{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.header_btn{
+    width: 141px;
+height: 41.694px;
+flex-shrink: 0;
+border-radius: 45px 0px;
+border: 3px solid #26C7EA;
+background: #0B0E66;
+color: #26C6EA;
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
